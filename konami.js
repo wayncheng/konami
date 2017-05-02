@@ -4,7 +4,9 @@ $(document).ready(function(){
 		'master' : [38,38,40,40,37,39,37,39,66,65,13],
 		'n' : 3,
 		fx: function(){
-				$('body').text('YAAASSSSSSSSS');
+				////////////////////////////
+				//  Code to Execute Here  //
+				////////////////////////////
 			},
 		go: function(){
 				reset = ko.reset;
