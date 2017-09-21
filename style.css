@@ -1,30 +1,47 @@
-body {
-	font-family: 'courier new', courier, monospace;
-	text-align: center;
-	font-size: 50px;
-	line-height: 90vh;
-	font-weight: normal;
-	/*word-spacing: -10px;*/
-	word-spacing: 10px;
+html {
+	font-size: 20px;
+	color: #7f8c8d;
 }
-p {
+body {
+		font-family: 'courier new', courier, monospace;
+		text-align: center;
+		font-size: 2.5rem;
+		line-height: 100vh;
+		font-weight: normal;
+		word-spacing: -10px;
+		word-spacing: 10px;
+		margin: 0;
+		padding: 0;
+		min-height: 100vh;
+		height: 100vh;
+		overflow: hidden;
+		background-color: #ecf0f1;
+}
+.hero {
 	font-family: 'Roboto Mono';
 	margin: 0 auto;
-	position: absolute;
 	width: 100%;
 	top: 0;
 	left: 0;
-	font-size: 20px;
-	height: 50px;
-	line-height: 50px;
-	color: #ccc;
+	font-size: 1rem;
+	height: 2rem;
+	line-height: 2rem;
+	color: #bdc3c7;
+	display: inline-block;
 }
-p span {
+.hero span {
 	font-family: 'courier new', courier, monospace;
-	font-size: 30px;
-	letter-spacing: 20px;
+	font-size: 1.5em;
+	letter-spacing: .8em;
 	height: inherit;
 	line-height: inherit;
 	display: inline-block;
 	font-weight: bold;
+}
+
+@media all and (max-width: 550px){
+	.hero span {
+		display: block;
+		letter-spacing: .5em;
+	}
 }
